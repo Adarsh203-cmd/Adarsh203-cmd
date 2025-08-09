@@ -79,10 +79,10 @@
 
 ### 🎓 [Exam Room Application](https://github.com/Adarsh203-cmd/Exam-Room-Application)
 **Django REST Framework • React • PostgreSQL**
-- **Professional internship project** - comprehensive examination management system
-- Secure exam environment with time-based controls and anti-cheating measures
-- RESTful API architecture with role-based authentication (Admin/Student/Instructor)
-- Real-time exam monitoring with advanced state management
+- Professional internship project - comprehensive examination management system
+- Secure exam environment with time-based controls and automated submission
+- RESTful API architecture with JWT-based role authentication (Admin/Student/Instructor)
+- Advanced state management for exam progress tracking and user sessions
 
 ### 🤖 [AI Document Query Frontend](https://github.com/Adarsh203-cmd/ai-document-query-frontned)
 **React • TypeScript • REST API Integration**
