@@ -8,12 +8,12 @@
 
 **Full-Stack Developer** with expertise in modern web technologies, passionate about building scalable, production-ready applications with clean architecture and optimal performance.
 
-- 🔭 Currently working on **AI-powered document querying systems**
-- 🌱 Learning **Advanced React Patterns & Microservices Architecture**
+- 🔭 Currently exploring **MERN Stack & Modern JavaScript Frameworks**
+- 🌱 Learning **Advanced React Patterns, Node.js, & Cloud Deployment Strategies**
 - 👯 Looking to collaborate on **innovative full-stack projects**
-- 💬 Ask me about **React, Django, REST APIs, Database Design**
+- 💬 Ask me about **MERN Stack, React, Django, Real-time Applications, AWS Deployment**
 - 📫 Reach me at: **adarshpacharya268@gmail.com**
-   or **https://adarsh-portfolio-git-main-adarshs-projects-ef9337df.vercel.app/**
+- 🌐 Portfolio: **https://adarsh-portfolio-git-main-adarshs-projects-ef9337df.vercel.app/**
 
 ---
 
@@ -35,10 +35,16 @@
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
 ### **Database & Cloud**
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
 
 ### **Development Tools**
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
@@ -63,6 +69,21 @@
 
 ## 🏆 Featured Projects
 
+### 💬 [Chat Flow - Real-time Chat Application](https://github.com/Adarsh203-cmd/chat-flow)
+**MERN Stack • Socket.io • JWT • Firebase • AWS EC2**
+- Full-featured social chat application with real-time messaging
+- Instagram-like friend/follow request system with user profiles  
+- JWT authentication + Firebase email verification integration
+- **Production Deployed** on AWS EC2 with PM2 process manager & Nginx reverse proxy
+- WebSocket implementation for instant message delivery
+
+### 🎓 [Exam Room Application](https://github.com/Adarsh203-cmd/Exam-Room-Application)
+**Django REST Framework • React • PostgreSQL**
+- **Professional internship project** - comprehensive examination management system
+- Secure exam environment with time-based controls and anti-cheating measures
+- RESTful API architecture with role-based authentication (Admin/Student/Instructor)
+- Real-time exam monitoring with advanced state management
+
 ### 🤖 [AI Document Query Frontend](https://github.com/Adarsh203-cmd/ai-document-query-frontned)
 **React • TypeScript • REST API Integration**
 - Intelligent document querying system with AI-powered search capabilities
@@ -75,18 +96,6 @@
 - External API integration with error handling and caching
 - Clean, modern UI with smooth animations
 
-### ✅ [Advanced Todo Application](https://github.com/Adarsh203-cmd/ToDoApp)
-**Python • Django • PostgreSQL**
-- Feature-rich task management system with user authentication
-- RESTful API design with comprehensive CRUD operations
-- Clean architecture following Django best practices
-
-### 📝 [Cross-Platform Notepad](https://github.com/Adarsh203-cmd/notepad-app)
-**Java • Swing • File I/O**
-- Desktop application with rich text editing capabilities
-- Cross-platform compatibility with optimized performance
-- Clean, intuitive user interface design
-
 ---
 
 ## 🎯 Core Competencies
@@ -94,10 +103,13 @@
 ```python
 technical_skills = {
     "frontend": ["React.js", "JavaScript ES6+", "TypeScript", "Responsive Design"],
-    "backend": ["Django", "Django REST Framework", "Node.js", "API Development"],
-    "database": ["PostgreSQL", "MySQL", "Database Design", "Query Optimization"],
-    "tools": ["Git", "Docker", "AWS", "Postman", "VS Code"],
-    "practices": ["Clean Code", "SOLID Principles", "TDD", "Agile Development"]
+    "backend": ["Node.js", "Django", "Django REST Framework", "Express.js"],
+    "database": ["MongoDB", "PostgreSQL", "MySQL", "Database Design"],
+    "realtime": ["Socket.io", "WebSockets", "Real-time Applications"],
+    "authentication": ["JWT", "Firebase Auth", "OAuth", "Session Management"],
+    "cloud_devops": ["AWS EC2", "PM2", "Nginx", "Linux Server Management"],
+    "tools": ["Git", "Docker", "Postman", "VS Code"],
+    "practices": ["MERN Stack", "RESTful APIs", "Clean Code", "Agile Development"]
 }
 ```
 
@@ -105,12 +117,13 @@ technical_skills = {
 
 ## 🏅 Professional Highlights
 
-- 🚀 **20+ Production-Ready Projects** deployed and maintained
-- 🔧 **Full-Stack Expertise** in React-Django ecosystem
-- 🎯 **Clean Code Advocate** following industry best practices
-- 📈 **Performance Optimization** specialist
-- 🤝 **Team Collaboration** experience with Git workflows
-- 📚 **Continuous Learner** staying updated with latest technologies
+- 🚀 **MERN Stack Specialist** with production deployment experience
+- 🌐 **AWS Cloud Deployment** using EC2, PM2, and Nginx
+- 💬 **Real-time Applications Expert** - WebSocket & Socket.io implementation
+- 🔐 **Authentication Systems** - JWT, Firebase, and secure user management
+- 💼 **Internship Experience** - Built professional-grade examination management system
+- 🔧 **Full-Stack Expertise** spanning React-Django and MERN ecosystems
+- 📈 **Production-Ready Projects** with proper CI/CD and server management
 
 ---
 
@@ -127,8 +140,8 @@ technical_skills = {
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://your-portfolio.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adarshpacharya268@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://adarsh-portfolio-git-main-adarshs-projects-ef9337df.vercel.app/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
 
 </div>
