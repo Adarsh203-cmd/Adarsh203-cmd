@@ -6,12 +6,14 @@
 
 ## 🚀 About Me
 
-**Software Engineer** currently building production-grade IoT dashboards and mobile apps at **Blackfrog Technologies, Manipal**. I work across the MEAN stack — designing REST APIs, real-time Angular dashboards powered by MongoDB Change Streams, and Flutter BLE apps for field use. I care about systems that hold up under real constraints.
+**Software Engineer** currently building production-grade healthcare IoT dashboards and mobile apps at **Blackfrog Technologies, Manipal**. I own end-to-end development of customer-facing IoT modules — designing Angular interfaces and Node.js backend services from requirements through production deployment. I work across the MEAN stack — REST APIs, real-time Angular dashboards powered by MongoDB Change Streams, and Flutter BLE apps for field use. I care about systems that hold up under real constraints.
 
-- 🔭 Currently building **EMON** — a healthcare IoT temperature monitoring platform for cold-chain facilities
+- 🔭 Currently building **EMON** — a healthcare IoT temperature monitoring platform for cold-chain, geographically distributed refrigeration systems
+- 🧠 Leading the software architecture for a **Predictive Maintenance pipeline** — RabbitMQ Fanout Exchanges, InfluxDB, MongoDB, Amazon S3, and PostgreSQL for scalable ML inference and artifact management — while coordinating a team of 4 AI/ML interns
 - 🌱 Going deeper into **distributed systems, event-driven architecture, and backend engineering**
 - 👯 Open to collaborating on **backend-heavy or real-time systems projects**
-- 💬 Ask me about **MEAN Stack, Angular, RabbitMQ, MongoDB Change Streams, Flutter BLE, JWT Auth**
+- 💬 Ask me about **MEAN Stack, Angular, RabbitMQ, MongoDB Change Streams, Flutter BLE, JWT Auth, System Design**
+- 📍 Based in Karkala, Udupi, Karnataka
 - 📫 Reach me at: **adarshpacharya268@gmail.com**
 - 🌐 Portfolio: **https://adarsh-portfolio-git-main-adarshs-projects-ef9337df.vercel.app/**
 
@@ -43,15 +45,18 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 
 ### **Infrastructure & Tools**
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
@@ -73,19 +78,20 @@
 
 ## 💼 Work Experience
 
-### 🏥 Blackfrog Technologies — Trainee Software Engineer *(Aug 2025 – Present)*
+### 🏥 Blackfrog Technologies — Junior Software Engineer *(Aug 2025 – Present)*
 > *Building the dashboard that keeps vaccines cold.*
 
-Working on **EMON** — a mission-critical IoT temperature monitoring platform deployed in healthcare and pharmaceutical cold-chain facilities. The device sends telemetry via HTTPS; I help make sure none of it gets lost and all of it shows up correctly.
+Owning the end-to-end development of customer-facing healthcare IoT modules for **EMON**, a mission-critical temperature monitoring platform deployed across geographically distributed refrigeration systems in healthcare and pharmaceutical cold-chain facilities.
 
-- Owns 4 production dashboard modules: Site Setup, Refrigerator Config, Basestation–Sensor Mapping, RBAC
+- Designed scalable REST APIs transforming validated IoT telemetry into dashboards, historical analytics, reporting, and operational insights
+- Built interactive Angular dashboards: real-time alarm management, multi-sensor trend visualization, Google Maps integration, advanced filtering, and site-level operational monitoring
+- Owns admin modules for site onboarding, refrigerator configuration, device management, sensor thresholds, alarm settings, notification workflows, and user management (RBAC + audit trails)
 - **MongoDB Change Streams** → event-driven Angular UI updates replacing polling entirely
-- **RabbitMQ** buffer between EMON hardware telemetry and MongoDB persistence layer
-- **Angular BehaviorSubject caching** — re-fetches only on Change Stream signals
+- Leading architecture for a **Predictive Maintenance pipeline** — RabbitMQ Fanout Exchanges, InfluxDB, MongoDB, Amazon S3, and PostgreSQL — coordinating 4 AI/ML interns on scalable ML inference and artifact management
+- Designed end-to-end UI/UX and interaction workflows in **Figma** for a production **BLE monitoring app** — device onboarding, GATT-based communication, real-time telemetry, trip management, and report generation
 - **Flutter BLE app** for offline device configuration via Bluetooth
-- Mentoring 4 AI/ML interns on predictive maintenance model for refrigeration components
 
-**Stack:** Angular · TypeScript · Node.js · Express.js · MongoDB · RabbitMQ · Flutter · Dart · BLE · AWS EC2 · Nginx
+**Stack:** Angular · TypeScript · Node.js · Express.js · MongoDB · PostgreSQL · InfluxDB · RabbitMQ · Flutter · Dart · BLE/GATT · AWS EC2 · S3 · Nginx · Figma
 
 ---
 
@@ -93,8 +99,8 @@ Working on **EMON** — a mission-critical IoT temperature monitoring platform d
 > *Shipped a live exam platform from zero to production.*
 
 - Built **Candidate Enrollment** and **Exam-Taker** modules end-to-end in a live production system
-- Designed DRF APIs with JWT token refresh flows and permission scopes
-- Axios interceptors for centralized token injection and error handling
+- Designed DRF APIs with JWT authentication and token refresh flows
+- Collaborated on frontend-backend integration throughout the development lifecycle
 
 **Stack:** Django · DRF · PostgreSQL · React.js · JWT · Axios
 
@@ -104,6 +110,7 @@ Working on **EMON** — a mission-critical IoT temperature monitoring platform d
 
 ### 💬 [ChatFlow — Real-Time Messaging Platform](https://github.com/Adarsh203-cmd/chatflow-realtime-chat)
 **MERN Stack · Socket.io · Firebase Storage · AWS EC2 · PM2 · Nginx**
+- Full-stack real-time messaging platform: instant messaging, online presence, typing indicators, media sharing, channel-based communication
 - Socket.io rooms for isolated channels — presence tracking via WebSocket state, no polling
 - JWT middleware validated on socket handshake; media to Firebase Storage, metadata to MongoDB
 - Production deployed: AWS EC2 + PM2 cluster mode + Nginx SSL termination
@@ -131,14 +138,16 @@ Working on **EMON** — a mission-critical IoT temperature monitoring platform d
 
 ```python
 stack = {
+    "languages":       ["JavaScript (ES6+)", "TypeScript", "Python", "Java", "SQL", "Dart", "C/C++"],
     "frontend":        ["Angular", "TypeScript", "React.js", "JavaScript"],
     "backend":         ["Node.js", "Express.js", "Django", "Django REST Framework"],
-    "mobile":          ["Flutter", "Dart", "BLE (Bluetooth Low Energy)"],
-    "databases":       ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
-    "infrastructure":  ["RabbitMQ", "AWS EC2", "PM2", "Nginx"],
-    "concepts":        ["MongoDB Change Streams", "RBAC", "Audit Trails",
-                        "Event-driven Architecture", "JWT Auth", "Socket.io"],
-    "practices":       ["REST API Design", "Agile/Scrum", "Production Deployment"],
+    "mobile":          ["Flutter", "Dart", "BLE (Bluetooth Low Energy)", "GATT"],
+    "databases":       ["MongoDB", "PostgreSQL", "MySQL", "InfluxDB", "Firebase"],
+    "infrastructure":  ["RabbitMQ", "AWS EC2", "Amazon S3", "PM2", "Nginx"],
+    "concepts":        ["MongoDB Change Streams", "RBAC", "Audit Trails", "TOTP (2FA)",
+                        "Event-driven Architecture", "Microservices", "JWT Auth", "Socket.io"],
+    "practices":       ["System Design", "Distributed Systems", "REST API Design",
+                        "Agile/Scrum", "Production Deployment"],
 }
 ```
 
@@ -148,11 +157,19 @@ stack = {
 
 - 🏥 **Healthcare IoT** — building production systems used in medical cold-chain facilities
 - ⚡ **Event-driven Architecture** — MongoDB Change Streams replacing polling in live dashboards
-- 🐇 **Message Queuing** — RabbitMQ decoupling hardware telemetry from DB persistence
+- 🐇 **Message Queuing** — RabbitMQ Fanout Exchanges decoupling hardware telemetry and powering the Predictive Maintenance pipeline
 - 📱 **Cross-platform** — Angular web dashboards + Flutter BLE mobile apps for the same product
-- 🔐 **Access Control** — RBAC + audit trail systems meeting healthcare compliance requirements
+- 🎨 **UI/UX Design** — designed BLE app workflows end-to-end in Figma, from device onboarding to reporting
+- 🔐 **Access Control** — RBAC, audit trails, and TOTP (2FA) meeting healthcare compliance requirements
 - 🚀 **Production Deployments** — AWS EC2, PM2 cluster mode, Nginx reverse proxy
-- 👥 **Mentorship** — coordinating 4 AI/ML interns on predictive maintenance initiative
+- 👥 **Technical Leadership** — architecting the Predictive Maintenance pipeline and coordinating 4 AI/ML interns
+
+---
+
+## 🎓 Education
+
+**Master of Computer Applications (MCA)** — Manipal Institute of Technology, Manipal *(Aug 2023 – Jun 2025)*
+**Bachelor of Computer Applications (BCA)** — Sri Bhuvanendra College, Karkala *(Aug 2020 – Jul 2023)*
 
 ---
 
