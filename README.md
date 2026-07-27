@@ -176,7 +176,7 @@ stack = {
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adarsh203-cmd&theme=tokyo-night&bg_color=1a1b27&color=628fdb&line=628fdb&point=628fdb&area=true&hide_border=true" alt="GitHub Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adarshpdev&theme=tokyo-night&bg_color=1a1b27&color=628fdb&line=628fdb&point=628fdb&area=true&hide_border=true" alt="GitHub Activity Graph"/>
 </div>
 
 ---
