@@ -8,7 +8,7 @@
 
 **Software Engineer** currently building production-grade healthcare IoT dashboards and mobile apps at **Blackfrog Technologies, Manipal**. I own end-to-end development of customer-facing IoT modules — designing Angular interfaces and Node.js backend services from requirements through production deployment. I work across the MEAN stack — REST APIs, real-time Angular dashboards powered by MongoDB Change Streams, and Flutter BLE apps for field use. I care about systems that hold up under real constraints.
 
-- 🔭 Currently building **EMON** — a healthcare IoT temperature monitoring platform for cold-chain, geographically distributed refrigeration systems
+- 🔭 Currently building **Dashboard for EMON** — a healthcare IoT temperature monitoring device for cold-chain, geographically distributed refrigeration systems using MEAN stack
 - 🧠 Leading the software architecture for a **Predictive Maintenance pipeline** — RabbitMQ Fanout Exchanges, InfluxDB, MongoDB, Amazon S3, and PostgreSQL for scalable ML inference and artifact management — while coordinating a team of 4 AI/ML interns
 - 🌱 Going deeper into **distributed systems, event-driven architecture, and backend engineering**
 - 👯 Open to collaborating on **backend-heavy or real-time systems projects**
@@ -71,7 +71,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adarsh203-cmd&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adarshpdev&theme=tokyonight" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -198,6 +198,6 @@ stack = {
 ### 💡 *"Make it work, make it right, make it fast."* — Kent Beck
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Adarsh203-cmd&color=brightgreen&style=flat-square)
-[![GitHub followers](https://img.shields.io/github/followers/Adarsh203-cmd?label=Follow&style=social)](https://github.com/Adarsh203-cmd)
+[![GitHub followers](https://img.shields.io/github/followers/adarshpdev?label=Follow&style=social)](https://github.com/adarshpdev)
 
 </div>
